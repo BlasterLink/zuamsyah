@@ -1,0 +1,139 @@
+.azuams {
+	background:#f4f5f6;
+	border-top:0.1px solid #dcdee3;
+	border-bottom:0.1px solid #dcdee3;
+	padding:10px;
+	font-size:small;
+	color:gray
+}
+.b .k {
+	border:0;
+	border-collapse:collapse;
+	margin:0;
+	padding:0;
+	width:100%;
+}
+.b .k.ci {
+	width:auto;
+}
+.b .k tbody,.b .bp>tr>td,.b .bp>tbody>tr>td,.b .k td.bp {
+	vertical-align:top;
+}
+.b .bx>tr>td,.b .bx>tbody>tr>td,.b .k td.bx {
+	vertical-align:middle;
+}
+.b .k td {
+	padding:0;
+}
+.b .k td.t {
+	padding:2px;
+}
+.b .k td.dp {
+	padding:4px;
+}
+.b .k td.ds {
+	padding:6px;
+}
+.b .q {
+	width:100%;
+}
+.bq .cc {
+	background-color:transparent;
+	color:#4e5665;
+	display:block;
+	padding:0;
+	width:100%;
+}
+.bu .img {
+	display:block;
+}
+.bq .bs .fj {
+	padding:2px;
+}
+.bq .bs .bu {
+	padding:4px;
+}
+.b .bq .bs {
+	border:1px solid #9197a3;
+}
+.bq .bs .fj {
+	padding:2px;
+}
+.bq .bs .bu {
+	padding:4px;
+}
+.b .bq .bs {
+	border:1px solid #9197a3;
+}
+.bt {
+	background:#fff;
+}
+.b .bx>tr>td,.b .bx>tbody>tr>td,.b .k td.bx {
+	vertical-align:middle;
+}
+.bzuams {
+	background:#fff;
+	padding:12px;
+	border:none
+}
+.cd {
+	padding-left:4px;
+}
+.w {
+	-webkit-appearance:none;
+	background:none;
+	display:inline-block;
+	font-size:12px;
+	height:28px;
+	line-height:28px;
+	margin:0;
+	overflow:visible;
+	padding:0 9px;
+	text-align:center;
+	vertical-align:top;
+	white-space:nowrap;
+}
+.b .w {
+	-webkit-border-radius:2px;
+}
+.y,a.y,html .b a.y {
+	color:#fff;
+}
+.b .y {
+	background-color:#4e69a2;
+	border:1px solid #385490;
+}
+.b a.y:hover,.b .y:hover {
+	background-color:#465e91;
+}
+.y[disabled] {
+	color:#899bc1;
+}
+.b .y[disabled]:hover {
+	background-color:#4e69a2;
+}
+.b a.w::after {
+	content:"";
+	display:inline-block;
+	height:100%;
+	vertical-align:middle;
+}
+.b .w {
+	padding:0 8px;
+}
+.y,a.y,html .b a.y {
+	color:#fff;
+}
+.b .y {
+	background-color:#4e69a2;
+	border:1px solid #385490;
+}
+.b a.y:hover,.b .y:hover {
+	background-color:#465e91;
+}
+.y[disabled] {
+	color:#899bc1;
+}
+.b .y[disabled]:hover {
+	background-color: #4e69a2;
+}
