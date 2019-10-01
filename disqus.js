@@ -1,10 +1,12 @@
-        if (!block) {
-            block = document.getElementById('disqus-blogger-comment-block');
-        }
+    if (!block) 
+    {
+        block = document.getElementById('disqus-blogger-comment-block');
+    }
         return block;
     };
     var comment_block = get_comment_block();
-    if (!!comment_block) {
+    if (!!comment_block) 
+    {
         var disqus_div = document.createElement('div');
         disqus_div.id = 'disqus_thread';
         comment_block.innerHTML = '';
@@ -21,28 +23,38 @@
  
     var divs = ["disqus-box", "blogger-box", "facebook-box"];
     var visibleDivId = null;
-    function toggleVisibility(divId) {
-      if(visibleDivId === divId) {
+    function toggleVisibility(divId) 
+    {
+      if(visibleDivId === divId) 
+      {
         visibleDivId = null;
-      } else {
+      } 
+      else 
+      {
         visibleDivId = divId;
       }
       hideNonVisibleDivs();
     }
-    function hideNonVisibleDivs() {
+    function hideNonVisibleDivs() 
+    {
       var i, divId, div;
-      for(i = 0; i < divs.length; i++) {
+      for(i = 0; i < divs.length; i++) 
+      {
         divId = divs[i];
         div = document.getElementById(divId);
-        if(visibleDivId === divId) {
+        if(visibleDivId === divId) 
+        {
           div.style.display = "block";
-        } else {
+        } 
+        else 
+        {
           div.style.display = "none";
         }
       }
     }
  
-$(".commentbtn").click(function (e) {
-$(this).addClass("btncurrent").siblings().removeClass("btncurrent");
+$(".commentbtn").click(function (e) 
+{
+        $(this).addClass("btncurrent").siblings().removeClass("btncurrent");
 });
 //]]>
